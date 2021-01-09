@@ -5,11 +5,12 @@
 button {
   background-color: red;
   color: white;
+
+
+  /* 👇 YOUR CODE HERE 👇 */
   margin: 20px;
   padding: 10px;
   border-width: 3px;
   border-style: double;
   border-color: darkgray;
-
-  /* 👇 YOUR CODE HERE 👇 */
 }
