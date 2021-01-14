@@ -44,3 +44,29 @@ function subtractTwoNumbers(num1, num2) {
 }
 var  subtractTwoNumbersResult = subtractTwoNumbers(10, 10);
 console.log('subtractTwoNumbers Excercise: ' + subtractTwoNumbersResult);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+var getCircleCircumferenceResult = getCircleCircumference(2);
+console.log('getCircleCircumference Excercise: ' + getCircleCircumferenceResult);
+
+function returnFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+var returnFullNameResult = returnFullName('Janelle', 'Gatmaitan');
+console.log('returnFullName Excercise: ' + returnFullNameResult);
+
+function cubeNumber(number) {
+  return Math.pow(number, 3);
+}
+
+var cubeNumberResult = cubeNumber(2);
+console.log('cubeNumber Excercise: ' + cubeNumberResult);
+
+function returnMathSentence(num1, num2) {
+  return 'If you add ' + num1 + ' and ' + num2 + ' together you get ' + addTwoNumbers(num1, num2);
+}
+
+var returnMathSentenceResult = returnMathSentence(10,5);
+console.log('returnMathSentence Excercise: ' + returnMathSentenceResult);
